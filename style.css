@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20% 10% 60% 10%;
+    grid-template-areas: 
+    "cabecalho cabecalho"
+    "menu menu "
+    "conteudo rodape"
+    "propaganda propaganda"
+    
+    
+    ;
+}
+
+.cabecalho {
+    background-color: aqua;
+    grid-area: cabecalho;
+}
+
+.conteudo {
+    background-color: blue;
+    grid-area: conteudo;
+}
+
+.propaganda {
+    background-color: blueviolet;
+    grid-area: propaganda;
+}
+
+.rodape {
+    background-color: brown;
+    grid-area: rodape;
+}
+.menu{
+    background-color: chartreuse;
+    grid-area: menu;
+}
